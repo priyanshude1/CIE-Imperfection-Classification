@@ -1,0 +1,15 @@
+{
+  "seed": 1,
+  "device": "cpu",
+  "epochs": 60,
+  "lr": 0.0005,
+  "weight_decay": 0.0,
+  "selection": "train_loss",
+  "train": {
+    "loss": 0.22309227778830312,
+    "acc": 0.9204545454545454,
+    "f1_macro": 0.9253383934218848
+  },
+  "val": null,
+  "notes": "If val_frac=0, val is empty and selection reverts to minimizing train_loss."
+}

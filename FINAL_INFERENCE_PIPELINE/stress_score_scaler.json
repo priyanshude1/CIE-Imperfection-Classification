@@ -1,0 +1,1558 @@
+{
+  "scaler_type": "per_regime_per_column",
+  "fit_cases": "INDEX_ROWS_MINUS_PERFECT",
+  "mad_definition": "MAD_raw = median(|x - median_all|) over non-zero absolute deviations only",
+  "mad_floor_strategy": "per_regime_quantile_nonzero_mad(q=0.05)",
+  "eps": 1e-12,
+  "global_floor": 1e-12,
+  "columns_scaled": [
+    "Residual_EquivalentStress_t0p1",
+    "Residual_EquivalentStress_t0p5",
+    "Residual_EquivalentStress_t0p9",
+    "Residual_EquivalentStress_t1p1",
+    "Residual_EquivalentStress_t1p5",
+    "Residual_EquivalentStress_t1p9",
+    "Residual_EquivalentStress_t2p1",
+    "Residual_EquivalentStress_t2p5",
+    "Residual_EquivalentStress_t2p9",
+    "Residual_EquivalentStress_t3p0"
+  ],
+  "per_regime": {
+    "G1_S_H": {
+      "files_used": 6,
+      "mad_floor_regime": 9285.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117718,
+          "mad_floor_regime": 9285.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114301,
+          "mad_floor_regime": 9285.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116757,
+          "mad_floor_regime": 9285.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118854,
+          "mad_floor_regime": 9285.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 12300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115179,
+          "mad_floor_regime": 9285.0,
+          "scale_used": 12300.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118905,
+          "mad_floor_regime": 9285.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 13300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115568,
+          "mad_floor_regime": 9285.0,
+          "scale_used": 13300.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 18000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118913,
+          "mad_floor_regime": 9285.0,
+          "scale_used": 18000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117838,
+          "mad_floor_regime": 9285.0,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 8700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124708,
+          "mad_floor_regime": 9285.0,
+          "scale_used": 9285.0,
+          "was_floored": true
+        }
+      }
+    },
+    "G1_S_L": {
+      "files_used": 6,
+      "mad_floor_regime": 7805.75,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 7935.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121728,
+          "mad_floor_regime": 7805.75,
+          "scale_used": 7935.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118636,
+          "mad_floor_regime": 7805.75,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 7700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121333,
+          "mad_floor_regime": 7805.75,
+          "scale_used": 7805.75,
+          "was_floored": true
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120967,
+          "mad_floor_regime": 7805.75,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119617,
+          "mad_floor_regime": 7805.75,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122000,
+          "mad_floor_regime": 7805.75,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 10100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118150,
+          "mad_floor_regime": 7805.75,
+          "scale_used": 10100.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 11200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115166,
+          "mad_floor_regime": 7805.75,
+          "scale_used": 11200.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119229,
+          "mad_floor_regime": 7805.75,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 8200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123427,
+          "mad_floor_regime": 7805.75,
+          "scale_used": 8200.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G1_W_H": {
+      "files_used": 6,
+      "mad_floor_regime": 9725.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 9500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115870,
+          "mad_floor_regime": 9725.0,
+          "scale_used": 9725.0,
+          "was_floored": true
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113902,
+          "mad_floor_regime": 9725.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114895,
+          "mad_floor_regime": 9725.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119374,
+          "mad_floor_regime": 9725.0,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 14000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116887,
+          "mad_floor_regime": 9725.0,
+          "scale_used": 14000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117174,
+          "mad_floor_regime": 9725.0,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 14000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115319,
+          "mad_floor_regime": 9725.0,
+          "scale_used": 14000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 16000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 110930,
+          "mad_floor_regime": 9725.0,
+          "scale_used": 16000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 14000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114436,
+          "mad_floor_regime": 9725.0,
+          "scale_used": 14000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122603,
+          "mad_floor_regime": 9725.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G1_W_L": {
+      "files_used": 6,
+      "mad_floor_regime": 7900.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 7000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118779,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 7900.0,
+          "was_floored": true
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116946,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117730,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121308,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119690,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120992,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 10700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118890,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10700.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114754,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 10600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118531,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10600.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122173,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 9000.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G2_S_H": {
+      "files_used": 6,
+      "mad_floor_regime": 9010.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117923,
+          "mad_floor_regime": 9010.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113697,
+          "mad_floor_regime": 9010.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116656,
+          "mad_floor_regime": 9010.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118357,
+          "mad_floor_regime": 9010.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114272,
+          "mad_floor_regime": 9010.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119021,
+          "mad_floor_regime": 9010.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114299,
+          "mad_floor_regime": 9010.0,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 13980.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 110885,
+          "mad_floor_regime": 9010.0,
+          "scale_used": 13980.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114198,
+          "mad_floor_regime": 9010.0,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 8200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122590,
+          "mad_floor_regime": 9010.0,
+          "scale_used": 9010.0,
+          "was_floored": true
+        }
+      }
+    },
+    "G2_S_L": {
+      "files_used": 6,
+      "mad_floor_regime": 7735.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 7900.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121645,
+          "mad_floor_regime": 7735.0,
+          "scale_used": 7900.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118233,
+          "mad_floor_regime": 7735.0,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 7600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120264,
+          "mad_floor_regime": 7735.0,
+          "scale_used": 7735.0,
+          "was_floored": true
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 8800.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121398,
+          "mad_floor_regime": 7735.0,
+          "scale_used": 8800.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119459,
+          "mad_floor_regime": 7735.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 8200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121911,
+          "mad_floor_regime": 7735.0,
+          "scale_used": 8200.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118377,
+          "mad_floor_regime": 7735.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115414,
+          "mad_floor_regime": 7735.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 9400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119006,
+          "mad_floor_regime": 7735.0,
+          "scale_used": 9400.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 7900.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122521,
+          "mad_floor_regime": 7735.0,
+          "scale_used": 7900.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G2_W_H": {
+      "files_used": 6,
+      "mad_floor_regime": 9045.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114574,
+          "mad_floor_regime": 9045.0,
+          "scale_used": 9045.0,
+          "was_floored": true
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 112281,
+          "mad_floor_regime": 9045.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114012,
+          "mad_floor_regime": 9045.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117396,
+          "mad_floor_regime": 9045.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 13000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113992,
+          "mad_floor_regime": 9045.0,
+          "scale_used": 13000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116721,
+          "mad_floor_regime": 9045.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 13000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113778,
+          "mad_floor_regime": 9045.0,
+          "scale_used": 13000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 15000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 110602,
+          "mad_floor_regime": 9045.0,
+          "scale_used": 15000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 13000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113753,
+          "mad_floor_regime": 9045.0,
+          "scale_used": 13000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 9100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121437,
+          "mad_floor_regime": 9045.0,
+          "scale_used": 9100.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G2_W_L": {
+      "files_used": 6,
+      "mad_floor_regime": 7900.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 7000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118039,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 7900.0,
+          "was_floored": true
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115110,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116984,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120414,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 10140.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118984,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10140.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120842,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 10600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117068,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10600.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 11500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114179,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 11500.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117469,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120989,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 9000.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G3_S_H": {
+      "files_used": 6,
+      "mad_floor_regime": 22700.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 30000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118648,
+          "mad_floor_regime": 22700.0,
+          "scale_used": 30000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 40000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 111977,
+          "mad_floor_regime": 22700.0,
+          "scale_used": 40000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 31000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116733,
+          "mad_floor_regime": 22700.0,
+          "scale_used": 31000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 26000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123593,
+          "mad_floor_regime": 22700.0,
+          "scale_used": 26000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 34000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125042,
+          "mad_floor_regime": 22700.0,
+          "scale_used": 34000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 28000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126720,
+          "mad_floor_regime": 22700.0,
+          "scale_used": 28000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 34000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122736,
+          "mad_floor_regime": 22700.0,
+          "scale_used": 34000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 41000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116339,
+          "mad_floor_regime": 22700.0,
+          "scale_used": 41000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 36000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121279,
+          "mad_floor_regime": 22700.0,
+          "scale_used": 36000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 20000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133929,
+          "mad_floor_regime": 22700.0,
+          "scale_used": 22700.0,
+          "was_floored": true
+        }
+      }
+    },
+    "G3_S_L": {
+      "files_used": 6,
+      "mad_floor_regime": 7900.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118481,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 111199,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117132,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118620,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116566,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120630,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117539,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 111094,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117602,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 7000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124706,
+          "mad_floor_regime": 7900.0,
+          "scale_used": 7900.0,
+          "was_floored": true
+        }
+      }
+    },
+    "G3_W_H": {
+      "files_used": 6,
+      "mad_floor_regime": 9175.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 107608,
+          "mad_floor_regime": 9175.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 18000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 102982,
+          "mad_floor_regime": 9175.0,
+          "scale_used": 18000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 107078,
+          "mad_floor_regime": 9175.0,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 13000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113296,
+          "mad_floor_regime": 9175.0,
+          "scale_used": 13000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 17000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 108828,
+          "mad_floor_regime": 9175.0,
+          "scale_used": 17000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 112349,
+          "mad_floor_regime": 9175.0,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 15000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 112666,
+          "mad_floor_regime": 9175.0,
+          "scale_used": 15000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 20000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 105758,
+          "mad_floor_regime": 9175.0,
+          "scale_used": 20000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 15000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 110446,
+          "mad_floor_regime": 9175.0,
+          "scale_used": 15000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 8500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122461,
+          "mad_floor_regime": 9175.0,
+          "scale_used": 9175.0,
+          "was_floored": true
+        }
+      }
+    },
+    "G3_W_L": {
+      "files_used": 6,
+      "mad_floor_regime": 8450.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115117,
+          "mad_floor_regime": 8450.0,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 110204,
+          "mad_floor_regime": 8450.0,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114457,
+          "mad_floor_regime": 8450.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117900,
+          "mad_floor_regime": 8450.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114972,
+          "mad_floor_regime": 8450.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118204,
+          "mad_floor_regime": 8450.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117215,
+          "mad_floor_regime": 8450.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 13000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 112620,
+          "mad_floor_regime": 8450.0,
+          "scale_used": 13000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117357,
+          "mad_floor_regime": 8450.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 8000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123599,
+          "mad_floor_regime": 8450.0,
+          "scale_used": 8450.0,
+          "was_floored": true
+        }
+      }
+    },
+    "G4_S_H": {
+      "files_used": 4,
+      "mad_floor_regime": 96800000.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": -5000000.0,
+          "mad_raw": 95000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 97240,
+          "mad_floor_regime": 96800000.0,
+          "scale_used": 96800000.0,
+          "was_floored": true
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": -1000000.0,
+          "mad_raw": 99000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 96684,
+          "mad_floor_regime": 96800000.0,
+          "scale_used": 99000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 240000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 76062,
+          "mad_floor_regime": 96800000.0,
+          "scale_used": 240000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 250000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 74658,
+          "mad_floor_regime": 96800000.0,
+          "scale_used": 250000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 300000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 70674,
+          "mad_floor_regime": 96800000.0,
+          "scale_used": 300000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 250000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 74837,
+          "mad_floor_regime": 96800000.0,
+          "scale_used": 250000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 255000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 73416,
+          "mad_floor_regime": 96800000.0,
+          "scale_used": 255000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 300000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 69418,
+          "mad_floor_regime": 96800000.0,
+          "scale_used": 300000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 270000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 71652,
+          "mad_floor_regime": 96800000.0,
+          "scale_used": 270000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 160000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 80838,
+          "mad_floor_regime": 96800000.0,
+          "scale_used": 160000000.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G4_S_L": {
+      "files_used": 4,
+      "mad_floor_regime": 116450000.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": -1000000.0,
+          "mad_raw": 89000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 96685,
+          "mad_floor_regime": 116450000.0,
+          "scale_used": 116450000.0,
+          "was_floored": true
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 210000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 77379,
+          "mad_floor_regime": 116450000.0,
+          "scale_used": 210000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 200000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 78797,
+          "mad_floor_regime": 116450000.0,
+          "scale_used": 200000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 200000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 78135,
+          "mad_floor_regime": 116450000.0,
+          "scale_used": 200000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 220000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 75466,
+          "mad_floor_regime": 116450000.0,
+          "scale_used": 220000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 200000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 78823,
+          "mad_floor_regime": 116450000.0,
+          "scale_used": 200000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 214000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 74067,
+          "mad_floor_regime": 116450000.0,
+          "scale_used": 214000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 240000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 71683,
+          "mad_floor_regime": 116450000.0,
+          "scale_used": 240000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 210000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 74507,
+          "mad_floor_regime": 116450000.0,
+          "scale_used": 210000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 150000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 80661,
+          "mad_floor_regime": 116450000.0,
+          "scale_used": 150000000.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G4_W_H": {
+      "files_used": 4,
+      "mad_floor_regime": 189000000.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 200000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 78701,
+          "mad_floor_regime": 189000000.0,
+          "scale_used": 200000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 250000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 78042,
+          "mad_floor_regime": 189000000.0,
+          "scale_used": 250000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 250000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 76539,
+          "mad_floor_regime": 189000000.0,
+          "scale_used": 250000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 260000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 75016,
+          "mad_floor_regime": 189000000.0,
+          "scale_used": 260000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 300000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 71853,
+          "mad_floor_regime": 189000000.0,
+          "scale_used": 300000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 260000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 74942,
+          "mad_floor_regime": 189000000.0,
+          "scale_used": 260000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 280000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 73755,
+          "mad_floor_regime": 189000000.0,
+          "scale_used": 280000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 310000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 70674,
+          "mad_floor_regime": 189000000.0,
+          "scale_used": 310000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 290000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 72349,
+          "mad_floor_regime": 189000000.0,
+          "scale_used": 290000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 180000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 80771,
+          "mad_floor_regime": 189000000.0,
+          "scale_used": 189000000.0,
+          "was_floored": true
+        }
+      }
+    },
+    "G4_W_L": {
+      "files_used": 4,
+      "mad_floor_regime": 169000000.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 160000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 78630,
+          "mad_floor_regime": 169000000.0,
+          "scale_used": 169000000.0,
+          "was_floored": true
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 230000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 77698,
+          "mad_floor_regime": 169000000.0,
+          "scale_used": 230000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 210000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 77538,
+          "mad_floor_regime": 169000000.0,
+          "scale_used": 210000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 210000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 76881,
+          "mad_floor_regime": 169000000.0,
+          "scale_used": 210000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 250000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 74407,
+          "mad_floor_regime": 169000000.0,
+          "scale_used": 250000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 210000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 77054,
+          "mad_floor_regime": 169000000.0,
+          "scale_used": 210000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 237000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 73343,
+          "mad_floor_regime": 169000000.0,
+          "scale_used": 237000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 260850000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 71000,
+          "mad_floor_regime": 169000000.0,
+          "scale_used": 260850000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 230000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 73812,
+          "mad_floor_regime": 169000000.0,
+          "scale_used": 230000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 180000000.0,
+          "n_samples": 97464,
+          "n_nonzero_absdev": 78770,
+          "mad_floor_regime": 169000000.0,
+          "scale_used": 180000000.0,
+          "was_floored": false
+        }
+      }
+    }
+  }
+}

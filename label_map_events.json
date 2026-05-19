@@ -1,0 +1,12 @@
+{
+  "n_classes": 6,
+  "labeling_rule": "label_id assigned by alphabetical order of unique case_name values from events_equivstress_index.csv",
+  "label_map": {
+    "Ip_1track_1_arc_345": 0,
+    "ip_1and3line_3_arc_78910": 1,
+    "ip_2_arc_all_tracks_222": 2,
+    "ip_3track_1_arc_678": 3,
+    "ip_first_track_3arc_78910": 4,
+    "ip_frst_Arc_defect_all_tracks_111": 5
+  }
+}

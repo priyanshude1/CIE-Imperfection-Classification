@@ -1,0 +1,14 @@
+{
+  "type": "minmax",
+  "fit_nodes": "1..25041",
+  "max_node_id": 25041,
+  "n_nodes_used": 24741,
+  "x_min": -10.0,
+  "x_max": 70.0,
+  "y_min": -9.5,
+  "y_max": 310.5,
+  "z_min": -52.0,
+  "z_max": 31.01,
+  "units": "mm",
+  "notes": "Coordinates normalized to [0,1] using (v - min)/(max - min). Node IDs > max_node_id are not expected."
+}

@@ -1,0 +1,5908 @@
+{
+  "scaler_type": "per_regime_per_column",
+  "fit_cases": "IMPERFECT_ONLY",
+  "mad_definition": "MAD_raw = median(|x - median_all|) over non-zero absolute deviations only",
+  "mad_floor_strategy": "per_regime_quantile_nonzero_mad(q=0.05)",
+  "eps": 1e-12,
+  "global_floor": 1e-12,
+  "residual_columns": [
+    "Residual_EquivalentStress_t0p1",
+    "Residual_EquivalentStress_t0p5",
+    "Residual_EquivalentStress_t0p9",
+    "Residual_EquivalentStress_t1p1",
+    "Residual_EquivalentStress_t1p5",
+    "Residual_EquivalentStress_t1p9",
+    "Residual_EquivalentStress_t2p1",
+    "Residual_EquivalentStress_t2p5",
+    "Residual_EquivalentStress_t2p9",
+    "Residual_EquivalentStress_t3p0",
+    "Residual_ShearStress_XY_t0p1",
+    "Residual_ShearStress_XY_t0p5",
+    "Residual_ShearStress_XY_t0p9",
+    "Residual_ShearStress_XY_t1p1",
+    "Residual_ShearStress_XY_t1p5",
+    "Residual_ShearStress_XY_t1p9",
+    "Residual_ShearStress_XY_t2p1",
+    "Residual_ShearStress_XY_t2p5",
+    "Residual_ShearStress_XY_t2p9",
+    "Residual_ShearStress_XY_t3p0",
+    "Residual_ShearStress_XZ_t0p1",
+    "Residual_ShearStress_XZ_t0p5",
+    "Residual_ShearStress_XZ_t0p9",
+    "Residual_ShearStress_XZ_t1p1",
+    "Residual_ShearStress_XZ_t1p5",
+    "Residual_ShearStress_XZ_t1p9",
+    "Residual_ShearStress_XZ_t2p1",
+    "Residual_ShearStress_XZ_t2p5",
+    "Residual_ShearStress_XZ_t2p9",
+    "Residual_ShearStress_XZ_t3p0",
+    "Residual_ShearStress_YZ_t0p1",
+    "Residual_ShearStress_YZ_t0p5",
+    "Residual_ShearStress_YZ_t0p9",
+    "Residual_ShearStress_YZ_t1p1",
+    "Residual_ShearStress_YZ_t1p5",
+    "Residual_ShearStress_YZ_t1p9",
+    "Residual_ShearStress_YZ_t2p1",
+    "Residual_ShearStress_YZ_t2p5",
+    "Residual_ShearStress_YZ_t2p9",
+    "Residual_ShearStress_YZ_t3p0"
+  ],
+  "per_regime": {
+    "G1_S_H": {
+      "files_used": 6,
+      "mad_floor_regime": 397.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117718,
+          "mad_floor_regime": 397.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114301,
+          "mad_floor_regime": 397.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116757,
+          "mad_floor_regime": 397.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118854,
+          "mad_floor_regime": 397.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 12300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115179,
+          "mad_floor_regime": 397.0,
+          "scale_used": 12300.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118905,
+          "mad_floor_regime": 397.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 13300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115568,
+          "mad_floor_regime": 397.0,
+          "scale_used": 13300.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 18000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118913,
+          "mad_floor_regime": 397.0,
+          "scale_used": 18000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117838,
+          "mad_floor_regime": 397.0,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 8700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124708,
+          "mad_floor_regime": 397.0,
+          "scale_used": 8700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": 0.0,
+          "mad_raw": 410.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128918,
+          "mad_floor_regime": 397.0,
+          "scale_used": 410.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125204,
+          "mad_floor_regime": 397.0,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127790,
+          "mad_floor_regime": 397.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": 0.0,
+          "mad_raw": 470.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128908,
+          "mad_floor_regime": 397.0,
+          "scale_used": 470.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126666,
+          "mad_floor_regime": 397.0,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129582,
+          "mad_floor_regime": 397.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127484,
+          "mad_floor_regime": 397.0,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128010,
+          "mad_floor_regime": 397.0,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128084,
+          "mad_floor_regime": 397.0,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 134302,
+          "mad_floor_regime": 397.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128552,
+          "mad_floor_regime": 397.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125670,
+          "mad_floor_regime": 397.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 340.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127725,
+          "mad_floor_regime": 397.0,
+          "scale_used": 397.0,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129045,
+          "mad_floor_regime": 397.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 490.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125958,
+          "mad_floor_regime": 397.0,
+          "scale_used": 490.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129167,
+          "mad_floor_regime": 397.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 490.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126865,
+          "mad_floor_regime": 397.0,
+          "scale_used": 490.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127417,
+          "mad_floor_regime": 397.0,
+          "scale_used": 600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 454.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127186,
+          "mad_floor_regime": 397.0,
+          "scale_used": 454.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 337.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 134423,
+          "mad_floor_regime": 397.0,
+          "scale_used": 397.0,
+          "was_floored": true
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 1020.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130800,
+          "mad_floor_regime": 397.0,
+          "scale_used": 1020.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 1100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127360,
+          "mad_floor_regime": 397.0,
+          "scale_used": 1100.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130904,
+          "mad_floor_regime": 397.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 1200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131917,
+          "mad_floor_regime": 397.0,
+          "scale_used": 1200.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 1300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129100,
+          "mad_floor_regime": 397.0,
+          "scale_used": 1300.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 1059.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 132970,
+          "mad_floor_regime": 397.0,
+          "scale_used": 1059.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 1500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126706,
+          "mad_floor_regime": 397.0,
+          "scale_used": 1500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 1900.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129131,
+          "mad_floor_regime": 397.0,
+          "scale_used": 1900.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 1400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129704,
+          "mad_floor_regime": 397.0,
+          "scale_used": 1400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 1023.7,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 138188,
+          "mad_floor_regime": 397.0,
+          "scale_used": 1023.7,
+          "was_floored": false
+        }
+      }
+    },
+    "G1_S_L": {
+      "files_used": 6,
+      "mad_floor_regime": 326.6300000000005,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 7935.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121728,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 7935.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118636,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 7700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121333,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 7700.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120967,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119617,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122000,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 10100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118150,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 10100.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 11200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115166,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 11200.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119229,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 8200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123427,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 8200.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131086,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128985,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": 0.0,
+          "mad_raw": 370.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130305,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 370.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129208,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128694,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130605,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": 0.0,
+          "mad_raw": 424.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128226,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 424.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": 0.0,
+          "mad_raw": 450.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127038,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 450.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129585,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133472,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 312.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131262,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 326.6300000000005,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 330.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129086,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 330.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130787,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 326.6300000000005,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 350.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130138,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 350.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129147,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 330.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131418,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 330.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128338,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126357,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 397.0500000000002,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129544,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 397.0500000000002,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 327.40000000000055,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133995,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 327.40000000000055,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133256,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 132078,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133762,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 134198,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 1090.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 132807,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 1090.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 134981,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 1200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129733,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 1200.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 1240.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127637,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 1240.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 1187.5,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130602,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 1187.5,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 137629,
+          "mad_floor_regime": 326.6300000000005,
+          "scale_used": 1000.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G1_W_H": {
+      "files_used": 6,
+      "mad_floor_regime": 416.15,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 9500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115870,
+          "mad_floor_regime": 416.15,
+          "scale_used": 9500.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113902,
+          "mad_floor_regime": 416.15,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114895,
+          "mad_floor_regime": 416.15,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119374,
+          "mad_floor_regime": 416.15,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 14000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116887,
+          "mad_floor_regime": 416.15,
+          "scale_used": 14000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117174,
+          "mad_floor_regime": 416.15,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 14000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115319,
+          "mad_floor_regime": 416.15,
+          "scale_used": 14000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 16000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 110930,
+          "mad_floor_regime": 416.15,
+          "scale_used": 16000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 14000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114436,
+          "mad_floor_regime": 416.15,
+          "scale_used": 14000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122603,
+          "mad_floor_regime": 416.15,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": 0.0,
+          "mad_raw": 580.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115540,
+          "mad_floor_regime": 416.15,
+          "scale_used": 580.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114804,
+          "mad_floor_regime": 416.15,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115122,
+          "mad_floor_regime": 416.15,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": 0.0,
+          "mad_raw": 830.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119992,
+          "mad_floor_regime": 416.15,
+          "scale_used": 830.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120276,
+          "mad_floor_regime": 416.15,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": 0.0,
+          "mad_raw": 800.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118064,
+          "mad_floor_regime": 416.15,
+          "scale_used": 800.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": 0.0,
+          "mad_raw": 960.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118167,
+          "mad_floor_regime": 416.15,
+          "scale_used": 960.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114028,
+          "mad_floor_regime": 416.15,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116734,
+          "mad_floor_regime": 416.15,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": 0.0,
+          "mad_raw": 812.4499999999998,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119456,
+          "mad_floor_regime": 416.15,
+          "scale_used": 812.4499999999998,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 330.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123744,
+          "mad_floor_regime": 416.15,
+          "scale_used": 416.15,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122176,
+          "mad_floor_regime": 416.15,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123107,
+          "mad_floor_regime": 416.15,
+          "scale_used": 416.15,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126769,
+          "mad_floor_regime": 416.15,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 651.5,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124824,
+          "mad_floor_regime": 416.15,
+          "scale_used": 651.5,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124660,
+          "mad_floor_regime": 416.15,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 545.6499999999996,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124984,
+          "mad_floor_regime": 416.15,
+          "scale_used": 545.6499999999996,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120227,
+          "mad_floor_regime": 416.15,
+          "scale_used": 600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 554.9000000000001,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123170,
+          "mad_floor_regime": 416.15,
+          "scale_used": 554.9000000000001,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 417.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129559,
+          "mad_floor_regime": 416.15,
+          "scale_used": 417.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127675,
+          "mad_floor_regime": 416.15,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 1300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124299,
+          "mad_floor_regime": 416.15,
+          "scale_used": 1300.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 1100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127027,
+          "mad_floor_regime": 416.15,
+          "scale_used": 1100.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 1400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130031,
+          "mad_floor_regime": 416.15,
+          "scale_used": 1400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 1600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127577,
+          "mad_floor_regime": 416.15,
+          "scale_used": 1600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 1300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129863,
+          "mad_floor_regime": 416.15,
+          "scale_used": 1300.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 1660.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125635,
+          "mad_floor_regime": 416.15,
+          "scale_used": 1660.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 1800.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120685,
+          "mad_floor_regime": 416.15,
+          "scale_used": 1800.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 1600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125102,
+          "mad_floor_regime": 416.15,
+          "scale_used": 1600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 1208.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133667,
+          "mad_floor_regime": 416.15,
+          "scale_used": 1208.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G1_W_L": {
+      "files_used": 6,
+      "mad_floor_regime": 399.5,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 7000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118779,
+          "mad_floor_regime": 399.5,
+          "scale_used": 7000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116946,
+          "mad_floor_regime": 399.5,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117730,
+          "mad_floor_regime": 399.5,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121308,
+          "mad_floor_regime": 399.5,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119690,
+          "mad_floor_regime": 399.5,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120992,
+          "mad_floor_regime": 399.5,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 10700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118890,
+          "mad_floor_regime": 399.5,
+          "scale_used": 10700.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114754,
+          "mad_floor_regime": 399.5,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 10600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118531,
+          "mad_floor_regime": 399.5,
+          "scale_used": 10600.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122173,
+          "mad_floor_regime": 399.5,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116174,
+          "mad_floor_regime": 399.5,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": 0.0,
+          "mad_raw": 650.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116012,
+          "mad_floor_regime": 399.5,
+          "scale_used": 650.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": 0.0,
+          "mad_raw": 600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115516,
+          "mad_floor_regime": 399.5,
+          "scale_used": 600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119303,
+          "mad_floor_regime": 399.5,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": 0.0,
+          "mad_raw": 740.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119474,
+          "mad_floor_regime": 399.5,
+          "scale_used": 740.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119057,
+          "mad_floor_regime": 399.5,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": 0.0,
+          "mad_raw": 761.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118991,
+          "mad_floor_regime": 399.5,
+          "scale_used": 761.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": 0.0,
+          "mad_raw": 800.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117023,
+          "mad_floor_regime": 399.5,
+          "scale_used": 800.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": 0.0,
+          "mad_raw": 763.96,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118522,
+          "mad_floor_regime": 399.5,
+          "scale_used": 763.96,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": 0.0,
+          "mad_raw": 730.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119028,
+          "mad_floor_regime": 399.5,
+          "scale_used": 730.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125309,
+          "mad_floor_regime": 399.5,
+          "scale_used": 399.5,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124932,
+          "mad_floor_regime": 399.5,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 390.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124920,
+          "mad_floor_regime": 399.5,
+          "scale_used": 399.5,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 420.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128305,
+          "mad_floor_regime": 399.5,
+          "scale_used": 420.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 480.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126678,
+          "mad_floor_regime": 399.5,
+          "scale_used": 480.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 410.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127725,
+          "mad_floor_regime": 399.5,
+          "scale_used": 410.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 457.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127686,
+          "mad_floor_regime": 399.5,
+          "scale_used": 457.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124188,
+          "mad_floor_regime": 399.5,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 449.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126893,
+          "mad_floor_regime": 399.5,
+          "scale_used": 449.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129201,
+          "mad_floor_regime": 399.5,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 990.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129848,
+          "mad_floor_regime": 399.5,
+          "scale_used": 990.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 1100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128795,
+          "mad_floor_regime": 399.5,
+          "scale_used": 1100.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 1080.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129622,
+          "mad_floor_regime": 399.5,
+          "scale_used": 1080.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 1200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131868,
+          "mad_floor_regime": 399.5,
+          "scale_used": 1200.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 1280.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130529,
+          "mad_floor_regime": 399.5,
+          "scale_used": 1280.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 1200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131691,
+          "mad_floor_regime": 399.5,
+          "scale_used": 1200.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 1330.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128438,
+          "mad_floor_regime": 399.5,
+          "scale_used": 1330.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 1400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125854,
+          "mad_floor_regime": 399.5,
+          "scale_used": 1400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 1314.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128448,
+          "mad_floor_regime": 399.5,
+          "scale_used": 1314.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 1180.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133438,
+          "mad_floor_regime": 399.5,
+          "scale_used": 1180.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G2_S_H": {
+      "files_used": 6,
+      "mad_floor_regime": 329.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117923,
+          "mad_floor_regime": 329.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113697,
+          "mad_floor_regime": 329.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116656,
+          "mad_floor_regime": 329.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118357,
+          "mad_floor_regime": 329.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114272,
+          "mad_floor_regime": 329.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119021,
+          "mad_floor_regime": 329.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114299,
+          "mad_floor_regime": 329.0,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 13980.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 110885,
+          "mad_floor_regime": 329.0,
+          "scale_used": 13980.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114198,
+          "mad_floor_regime": 329.0,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 8200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122590,
+          "mad_floor_regime": 329.0,
+          "scale_used": 8200.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128971,
+          "mad_floor_regime": 329.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125086,
+          "mad_floor_regime": 329.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": 0.0,
+          "mad_raw": 390.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127713,
+          "mad_floor_regime": 329.0,
+          "scale_used": 390.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129114,
+          "mad_floor_regime": 329.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": 0.0,
+          "mad_raw": 480.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126982,
+          "mad_floor_regime": 329.0,
+          "scale_used": 480.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129692,
+          "mad_floor_regime": 329.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125835,
+          "mad_floor_regime": 329.0,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": 0.0,
+          "mad_raw": 510.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122810,
+          "mad_floor_regime": 329.0,
+          "scale_used": 510.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": 0.0,
+          "mad_raw": 496.5,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126058,
+          "mad_floor_regime": 329.0,
+          "scale_used": 496.5,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": 0.0,
+          "mad_raw": 370.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 132682,
+          "mad_floor_regime": 329.0,
+          "scale_used": 370.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 333.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129102,
+          "mad_floor_regime": 329.0,
+          "scale_used": 333.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 370.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125863,
+          "mad_floor_regime": 329.0,
+          "scale_used": 370.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128010,
+          "mad_floor_regime": 329.0,
+          "scale_used": 329.0,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 380.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130200,
+          "mad_floor_regime": 329.0,
+          "scale_used": 380.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126905,
+          "mad_floor_regime": 329.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 330.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130052,
+          "mad_floor_regime": 329.0,
+          "scale_used": 330.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 420.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126291,
+          "mad_floor_regime": 329.0,
+          "scale_used": 420.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 470.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122415,
+          "mad_floor_regime": 329.0,
+          "scale_used": 470.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 410.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125813,
+          "mad_floor_regime": 329.0,
+          "scale_used": 410.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 310.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133574,
+          "mad_floor_regime": 329.0,
+          "scale_used": 329.0,
+          "was_floored": true
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131098,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126561,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130601,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 1090.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131830,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1090.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 1117.5,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128754,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1117.5,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 132992,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 1370.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126463,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1370.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 1460.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121811,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1460.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 1310.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126449,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1310.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 965.095,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 137618,
+          "mad_floor_regime": 329.0,
+          "scale_used": 965.095,
+          "was_floored": false
+        }
+      }
+    },
+    "G2_S_L": {
+      "files_used": 6,
+      "mad_floor_regime": 300.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 7900.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121645,
+          "mad_floor_regime": 300.0,
+          "scale_used": 7900.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118233,
+          "mad_floor_regime": 300.0,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 7600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120264,
+          "mad_floor_regime": 300.0,
+          "scale_used": 7600.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 8800.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121398,
+          "mad_floor_regime": 300.0,
+          "scale_used": 8800.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119459,
+          "mad_floor_regime": 300.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 8200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121911,
+          "mad_floor_regime": 300.0,
+          "scale_used": 8200.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118377,
+          "mad_floor_regime": 300.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115414,
+          "mad_floor_regime": 300.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 9400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119006,
+          "mad_floor_regime": 300.0,
+          "scale_used": 9400.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 7900.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122521,
+          "mad_floor_regime": 300.0,
+          "scale_used": 7900.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131380,
+          "mad_floor_regime": 300.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": 0.0,
+          "mad_raw": 390.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128732,
+          "mad_floor_regime": 300.0,
+          "scale_used": 390.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": 0.0,
+          "mad_raw": 330.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130323,
+          "mad_floor_regime": 300.0,
+          "scale_used": 330.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": 0.0,
+          "mad_raw": 398.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130801,
+          "mad_floor_regime": 300.0,
+          "scale_used": 398.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129025,
+          "mad_floor_regime": 300.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": 0.0,
+          "mad_raw": 386.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131217,
+          "mad_floor_regime": 300.0,
+          "scale_used": 386.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129527,
+          "mad_floor_regime": 300.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": 0.0,
+          "mad_raw": 420.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126993,
+          "mad_floor_regime": 300.0,
+          "scale_used": 420.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129753,
+          "mad_floor_regime": 300.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": 0.0,
+          "mad_raw": 370.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 132585,
+          "mad_floor_regime": 300.0,
+          "scale_used": 370.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131866,
+          "mad_floor_regime": 300.0,
+          "scale_used": 300.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129226,
+          "mad_floor_regime": 300.0,
+          "scale_used": 300.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131000,
+          "mad_floor_regime": 300.0,
+          "scale_used": 300.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 320.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131893,
+          "mad_floor_regime": 300.0,
+          "scale_used": 320.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 350.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129979,
+          "mad_floor_regime": 300.0,
+          "scale_used": 350.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 310.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131891,
+          "mad_floor_regime": 300.0,
+          "scale_used": 310.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 370.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129974,
+          "mad_floor_regime": 300.0,
+          "scale_used": 370.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127086,
+          "mad_floor_regime": 300.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 360.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130050,
+          "mad_floor_regime": 300.0,
+          "scale_used": 360.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 307.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133536,
+          "mad_floor_regime": 300.0,
+          "scale_used": 307.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133843,
+          "mad_floor_regime": 300.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 132047,
+          "mad_floor_regime": 300.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 970.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133745,
+          "mad_floor_regime": 300.0,
+          "scale_used": 970.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 134438,
+          "mad_floor_regime": 300.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 132590,
+          "mad_floor_regime": 300.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 134968,
+          "mad_floor_regime": 300.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 1100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130127,
+          "mad_floor_regime": 300.0,
+          "scale_used": 1100.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 1166.5,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127508,
+          "mad_floor_regime": 300.0,
+          "scale_used": 1166.5,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 1100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130634,
+          "mad_floor_regime": 300.0,
+          "scale_used": 1100.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 930.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 137468,
+          "mad_floor_regime": 300.0,
+          "scale_used": 930.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G2_W_H": {
+      "files_used": 6,
+      "mad_floor_regime": 400.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114574,
+          "mad_floor_regime": 400.0,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 112281,
+          "mad_floor_regime": 400.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114012,
+          "mad_floor_regime": 400.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117396,
+          "mad_floor_regime": 400.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 13000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113992,
+          "mad_floor_regime": 400.0,
+          "scale_used": 13000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116721,
+          "mad_floor_regime": 400.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 13000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113778,
+          "mad_floor_regime": 400.0,
+          "scale_used": 13000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 15000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 110602,
+          "mad_floor_regime": 400.0,
+          "scale_used": 15000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 13000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113753,
+          "mad_floor_regime": 400.0,
+          "scale_used": 13000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 9100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121437,
+          "mad_floor_regime": 400.0,
+          "scale_used": 9100.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114764,
+          "mad_floor_regime": 400.0,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": 0.0,
+          "mad_raw": 710.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113819,
+          "mad_floor_regime": 400.0,
+          "scale_used": 710.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": 0.0,
+          "mad_raw": 600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114500,
+          "mad_floor_regime": 400.0,
+          "scale_used": 600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118384,
+          "mad_floor_regime": 400.0,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": 0.0,
+          "mad_raw": 800.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117159,
+          "mad_floor_regime": 400.0,
+          "scale_used": 800.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118178,
+          "mad_floor_regime": 400.0,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": 0.0,
+          "mad_raw": 880.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116465,
+          "mad_floor_regime": 400.0,
+          "scale_used": 880.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113331,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": 0.0,
+          "mad_raw": 860.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116472,
+          "mad_floor_regime": 400.0,
+          "scale_used": 860.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": 0.0,
+          "mad_raw": 730.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118336,
+          "mad_floor_regime": 400.0,
+          "scale_used": 730.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122561,
+          "mad_floor_regime": 400.0,
+          "scale_used": 400.0,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122044,
+          "mad_floor_regime": 400.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122615,
+          "mad_floor_regime": 400.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 470.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126591,
+          "mad_floor_regime": 400.0,
+          "scale_used": 470.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123060,
+          "mad_floor_regime": 400.0,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 420.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125471,
+          "mad_floor_regime": 400.0,
+          "scale_used": 420.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124014,
+          "mad_floor_regime": 400.0,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 530.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120514,
+          "mad_floor_regime": 400.0,
+          "scale_used": 530.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123399,
+          "mad_floor_regime": 400.0,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128747,
+          "mad_floor_regime": 400.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127071,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 1200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123844,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1200.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 1100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126748,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1100.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 1300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129248,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1300.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 1400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126526,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 1200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129745,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1200.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 1550.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124297,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1550.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 1680.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120069,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1680.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 1500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124620,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 1140.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133033,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1140.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G2_W_L": {
+      "files_used": 6,
+      "mad_floor_regime": 400.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 7000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118039,
+          "mad_floor_regime": 400.0,
+          "scale_used": 7000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115110,
+          "mad_floor_regime": 400.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116984,
+          "mad_floor_regime": 400.0,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120414,
+          "mad_floor_regime": 400.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 10140.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118984,
+          "mad_floor_regime": 400.0,
+          "scale_used": 10140.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120842,
+          "mad_floor_regime": 400.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 10600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117068,
+          "mad_floor_regime": 400.0,
+          "scale_used": 10600.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 11500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114179,
+          "mad_floor_regime": 400.0,
+          "scale_used": 11500.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117469,
+          "mad_floor_regime": 400.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120989,
+          "mad_floor_regime": 400.0,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115561,
+          "mad_floor_regime": 400.0,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": 0.0,
+          "mad_raw": 600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114773,
+          "mad_floor_regime": 400.0,
+          "scale_used": 600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": 0.0,
+          "mad_raw": 600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114534,
+          "mad_floor_regime": 400.0,
+          "scale_used": 600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": 0.0,
+          "mad_raw": 650.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118855,
+          "mad_floor_regime": 400.0,
+          "scale_used": 650.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118974,
+          "mad_floor_regime": 400.0,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": 0.0,
+          "mad_raw": 650.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118981,
+          "mad_floor_regime": 400.0,
+          "scale_used": 650.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117712,
+          "mad_floor_regime": 400.0,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": 0.0,
+          "mad_raw": 710.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116454,
+          "mad_floor_regime": 400.0,
+          "scale_used": 710.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117620,
+          "mad_floor_regime": 400.0,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117909,
+          "mad_floor_regime": 400.0,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124695,
+          "mad_floor_regime": 400.0,
+          "scale_used": 400.0,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123389,
+          "mad_floor_regime": 400.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124060,
+          "mad_floor_regime": 400.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128038,
+          "mad_floor_regime": 400.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 440.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126941,
+          "mad_floor_regime": 400.0,
+          "scale_used": 440.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128141,
+          "mad_floor_regime": 400.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 430.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126141,
+          "mad_floor_regime": 400.0,
+          "scale_used": 430.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 460.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123818,
+          "mad_floor_regime": 400.0,
+          "scale_used": 460.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 420.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126111,
+          "mad_floor_regime": 400.0,
+          "scale_used": 420.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128550,
+          "mad_floor_regime": 400.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 990.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129582,
+          "mad_floor_regime": 400.0,
+          "scale_used": 990.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 1100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128175,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1100.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 1050.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129437,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1050.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 1200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131341,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1200.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 1290.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130092,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1290.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 1190.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131657,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1190.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 1322.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127559,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1322.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 1393.4500000000005,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125366,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1393.4500000000005,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 1300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127842,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1300.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 1140.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 132900,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1140.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G3_S_H": {
+      "files_used": 6,
+      "mad_floor_regime": 458.5,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 30000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118648,
+          "mad_floor_regime": 458.5,
+          "scale_used": 30000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 40000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 111977,
+          "mad_floor_regime": 458.5,
+          "scale_used": 40000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 31000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116733,
+          "mad_floor_regime": 458.5,
+          "scale_used": 31000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 26000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123593,
+          "mad_floor_regime": 458.5,
+          "scale_used": 26000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 34000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125042,
+          "mad_floor_regime": 458.5,
+          "scale_used": 34000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 28000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126720,
+          "mad_floor_regime": 458.5,
+          "scale_used": 28000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 34000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122736,
+          "mad_floor_regime": 458.5,
+          "scale_used": 34000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 41000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116339,
+          "mad_floor_regime": 458.5,
+          "scale_used": 41000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 36000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121279,
+          "mad_floor_regime": 458.5,
+          "scale_used": 36000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 20000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133929,
+          "mad_floor_regime": 458.5,
+          "scale_used": 20000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123081,
+          "mad_floor_regime": 458.5,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115209,
+          "mad_floor_regime": 458.5,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121673,
+          "mad_floor_regime": 458.5,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125831,
+          "mad_floor_regime": 458.5,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": 0.0,
+          "mad_raw": 900.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126931,
+          "mad_floor_regime": 458.5,
+          "scale_used": 900.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131029,
+          "mad_floor_regime": 458.5,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": 0.0,
+          "mad_raw": 900.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126841,
+          "mad_floor_regime": 458.5,
+          "scale_used": 900.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119651,
+          "mad_floor_regime": 458.5,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": 0.0,
+          "mad_raw": 900.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125441,
+          "mad_floor_regime": 458.5,
+          "scale_used": 900.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": 0.1519500000000171,
+          "mad_raw": 500.15195,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 458.5,
+          "scale_used": 500.15195,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 460.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120993,
+          "mad_floor_regime": 458.5,
+          "scale_used": 460.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113966,
+          "mad_floor_regime": 458.5,
+          "scale_used": 600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 430.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119443,
+          "mad_floor_regime": 458.5,
+          "scale_used": 458.5,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127297,
+          "mad_floor_regime": 458.5,
+          "scale_used": 458.5,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 710.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126716,
+          "mad_floor_regime": 458.5,
+          "scale_used": 710.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 590.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131186,
+          "mad_floor_regime": 458.5,
+          "scale_used": 590.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 790.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125866,
+          "mad_floor_regime": 458.5,
+          "scale_used": 790.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118823,
+          "mad_floor_regime": 458.5,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 790.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123855,
+          "mad_floor_regime": 458.5,
+          "scale_used": 790.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 137554,
+          "mad_floor_regime": 458.5,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 1300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121121,
+          "mad_floor_regime": 458.5,
+          "scale_used": 1300.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 1800.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 112074,
+          "mad_floor_regime": 458.5,
+          "scale_used": 1800.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 1300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119387,
+          "mad_floor_regime": 458.5,
+          "scale_used": 1300.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 1200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128630,
+          "mad_floor_regime": 458.5,
+          "scale_used": 1200.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 2000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125857,
+          "mad_floor_regime": 458.5,
+          "scale_used": 2000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 1300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 132172,
+          "mad_floor_regime": 458.5,
+          "scale_used": 1300.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 2000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124800,
+          "mad_floor_regime": 458.5,
+          "scale_used": 2000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 2200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114916,
+          "mad_floor_regime": 458.5,
+          "scale_used": 2200.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 2000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122113,
+          "mad_floor_regime": 458.5,
+          "scale_used": 2000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 1140.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 139181,
+          "mad_floor_regime": 458.5,
+          "scale_used": 1140.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G3_S_L": {
+      "files_used": 6,
+      "mad_floor_regime": 329.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118481,
+          "mad_floor_regime": 329.0,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 111199,
+          "mad_floor_regime": 329.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117132,
+          "mad_floor_regime": 329.0,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118620,
+          "mad_floor_regime": 329.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116566,
+          "mad_floor_regime": 329.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120630,
+          "mad_floor_regime": 329.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117539,
+          "mad_floor_regime": 329.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 111094,
+          "mad_floor_regime": 329.0,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117602,
+          "mad_floor_regime": 329.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 7000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124706,
+          "mad_floor_regime": 329.0,
+          "scale_used": 7000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127966,
+          "mad_floor_regime": 329.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": 0.0,
+          "mad_raw": 460.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123698,
+          "mad_floor_regime": 329.0,
+          "scale_used": 460.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126877,
+          "mad_floor_regime": 329.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128451,
+          "mad_floor_regime": 329.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": 0.0,
+          "mad_raw": 410.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127077,
+          "mad_floor_regime": 329.0,
+          "scale_used": 410.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130110,
+          "mad_floor_regime": 329.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": 0.0,
+          "mad_raw": 430.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127229,
+          "mad_floor_regime": 329.0,
+          "scale_used": 430.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123304,
+          "mad_floor_regime": 329.0,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126947,
+          "mad_floor_regime": 329.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": 0.0,
+          "mad_raw": 370.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 134345,
+          "mad_floor_regime": 329.0,
+          "scale_used": 370.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 361.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127753,
+          "mad_floor_regime": 329.0,
+          "scale_used": 361.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122101,
+          "mad_floor_regime": 329.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 340.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126451,
+          "mad_floor_regime": 329.0,
+          "scale_used": 340.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 330.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130015,
+          "mad_floor_regime": 329.0,
+          "scale_used": 330.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 128037,
+          "mad_floor_regime": 329.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 310.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 131536,
+          "mad_floor_regime": 329.0,
+          "scale_used": 329.0,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127932,
+          "mad_floor_regime": 329.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 430.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122573,
+          "mad_floor_regime": 329.0,
+          "scale_used": 430.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126815,
+          "mad_floor_regime": 329.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 134888,
+          "mad_floor_regime": 329.0,
+          "scale_used": 329.0,
+          "was_floored": true
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 1100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127025,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1100.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 1200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122157,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1200.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 1025.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126530,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1025.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 132135,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130385,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133946,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 1200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127729,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1200.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 1300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122866,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1300.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 1105.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127496,
+          "mad_floor_regime": 329.0,
+          "scale_used": 1105.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 890.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 138446,
+          "mad_floor_regime": 329.0,
+          "scale_used": 890.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G3_W_H": {
+      "files_used": 6,
+      "mad_floor_regime": 405.9375,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 107608,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 18000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 102982,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 18000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 107078,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 13000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113296,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 13000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 17000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 108828,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 17000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 112349,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 15000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 112666,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 15000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 20000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 105758,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 20000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 15000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 110446,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 15000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 8500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122461,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 8500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": 0.0,
+          "mad_raw": 600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113071,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 110901,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": 0.0,
+          "mad_raw": 800.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 112340,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 800.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116981,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": 0.0,
+          "mad_raw": 900.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 112928,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 900.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115825,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": 0.0,
+          "mad_raw": 940.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118820,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 940.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114324,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": 0.0,
+          "mad_raw": 900.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117165,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 900.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": 0.0,
+          "mad_raw": 710.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119493,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 710.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116653,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 405.9375,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113868,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116234,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124099,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118033,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 406.25,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122088,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 406.25,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121835,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 800.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 116724,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 800.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120542,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129876,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 405.9375,
+          "was_floored": true
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 1100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118327,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 1100.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 2000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 111932,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 2000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 1451.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118121,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 1451.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 1400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125805,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 1400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 1600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 119963,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 1600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 1265.5,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126182,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 1265.5,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 1800.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121963,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 1800.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 2000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 113657,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 2000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 1800.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120290,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 1800.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 1100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133452,
+          "mad_floor_regime": 405.9375,
+          "scale_used": 1100.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G3_W_L": {
+      "files_used": 6,
+      "mad_floor_regime": 400.0,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": 0.0,
+          "mad_raw": 9000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115117,
+          "mad_floor_regime": 400.0,
+          "scale_used": 9000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": 0.0,
+          "mad_raw": 12000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 110204,
+          "mad_floor_regime": 400.0,
+          "scale_used": 12000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114457,
+          "mad_floor_regime": 400.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117900,
+          "mad_floor_regime": 400.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 114972,
+          "mad_floor_regime": 400.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": 0.0,
+          "mad_raw": 10000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118204,
+          "mad_floor_regime": 400.0,
+          "scale_used": 10000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117215,
+          "mad_floor_regime": 400.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": 0.0,
+          "mad_raw": 13000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 112620,
+          "mad_floor_regime": 400.0,
+          "scale_used": 13000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": 0.0,
+          "mad_raw": 11000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117357,
+          "mad_floor_regime": 400.0,
+          "scale_used": 11000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": 0.0,
+          "mad_raw": 8000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 123599,
+          "mad_floor_regime": 400.0,
+          "scale_used": 8000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": 0.0,
+          "mad_raw": 510.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115414,
+          "mad_floor_regime": 400.0,
+          "scale_used": 510.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": 0.0,
+          "mad_raw": 700.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115197,
+          "mad_floor_regime": 400.0,
+          "scale_used": 700.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": 0.0,
+          "mad_raw": 600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 115297,
+          "mad_floor_regime": 400.0,
+          "scale_used": 600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": 0.0,
+          "mad_raw": 600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118630,
+          "mad_floor_regime": 400.0,
+          "scale_used": 600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": 0.0,
+          "mad_raw": 690.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118218,
+          "mad_floor_regime": 400.0,
+          "scale_used": 690.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": 0.0,
+          "mad_raw": 600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118765,
+          "mad_floor_regime": 400.0,
+          "scale_used": 600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": 0.0,
+          "mad_raw": 799.3,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 118524,
+          "mad_floor_regime": 400.0,
+          "scale_used": 799.3,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": 0.0,
+          "mad_raw": 870.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117934,
+          "mad_floor_regime": 400.0,
+          "scale_used": 870.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": 0.0,
+          "mad_raw": 800.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 117934,
+          "mad_floor_regime": 400.0,
+          "scale_used": 800.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": 0.0,
+          "mad_raw": 760.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120340,
+          "mad_floor_regime": 400.0,
+          "scale_used": 760.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 310.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122233,
+          "mad_floor_regime": 400.0,
+          "scale_used": 400.0,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 470.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 120092,
+          "mad_floor_regime": 400.0,
+          "scale_used": 470.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122553,
+          "mad_floor_regime": 400.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127185,
+          "mad_floor_regime": 400.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 410.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125194,
+          "mad_floor_regime": 400.0,
+          "scale_used": 410.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126812,
+          "mad_floor_regime": 400.0,
+          "scale_used": 400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125554,
+          "mad_floor_regime": 400.0,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 540.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122330,
+          "mad_floor_regime": 400.0,
+          "scale_used": 540.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 125268,
+          "mad_floor_regime": 400.0,
+          "scale_used": 500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 410.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130534,
+          "mad_floor_regime": 400.0,
+          "scale_used": 410.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": 0.0,
+          "mad_raw": 1000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124552,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": 0.0,
+          "mad_raw": 1330.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 121130,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1330.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": 0.0,
+          "mad_raw": 1200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 124904,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1200.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": 0.0,
+          "mad_raw": 1128.5,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 129782,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1128.5,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": 0.0,
+          "mad_raw": 1248.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 127664,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1248.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": 0.0,
+          "mad_raw": 1100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 130384,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1100.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": 0.0,
+          "mad_raw": 1400.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126498,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1400.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": 0.0,
+          "mad_raw": 1500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 122788,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1500.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": 0.0,
+          "mad_raw": 1380.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 126184,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1380.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": 0.0,
+          "mad_raw": 1100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 133986,
+          "mad_floor_regime": 400.0,
+          "scale_used": 1100.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G4_S_H": {
+      "files_used": 6,
+      "mad_floor_regime": 13555012.750000002,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": -187859450.0,
+          "mad_raw": 586029200.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 586029200.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": -170000000.0,
+          "mad_raw": 690000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145922,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 690000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": -170000000.0,
+          "mad_raw": 660000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145909,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 660000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": -100000000.0,
+          "mad_raw": 719125000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144483,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 719125000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": -100000000.0,
+          "mad_raw": 869899000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143265,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 869899000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": -100000000.0,
+          "mad_raw": 800000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144111,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 800000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": -136786300.0,
+          "mad_raw": 580536300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 580536300.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": -120000000.0,
+          "mad_raw": 620000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145916,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 620000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": -133000000.0,
+          "mad_raw": 603000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146181,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 603000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": -76000000.0,
+          "mad_raw": 429700000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146149,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 429700000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": -2000000.0,
+          "mad_raw": 19000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144294,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 19000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": -2100000.0,
+          "mad_raw": 26972980.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146083,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 26972980.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": -1600000.0,
+          "mad_raw": 18400000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146014,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 18400000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": -1600000.0,
+          "mad_raw": 21600000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146022,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 21600000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": -2000000.0,
+          "mad_raw": 34063565.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144200,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 34063565.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": -1800000.0,
+          "mad_raw": 25000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146052,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 25000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": -1000000.0,
+          "mad_raw": 20000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143565,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 20000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": -1300000.0,
+          "mad_raw": 21300000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146061,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 21300000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": -1000000.0,
+          "mad_raw": 20000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143211,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 20000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": -255.0,
+          "mad_raw": 3200255.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146183,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 13555012.750000002,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": -1900000.0,
+          "mad_raw": 14100000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145943,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 14100000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": -2000000.0,
+          "mad_raw": 22000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144387,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 22000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": -1200000.0,
+          "mad_raw": 15400000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145926,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 15400000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": -1100000.0,
+          "mad_raw": 17100000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145945,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 17100000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": -1900000.0,
+          "mad_raw": 22100000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146127,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 22100000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": -1000000.0,
+          "mad_raw": 23000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 142731,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 23000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": -1000000.0,
+          "mad_raw": 16300000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143726,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 16300000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": -1000000.0,
+          "mad_raw": 18519110.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143741,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 18519110.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": -1000000.0,
+          "mad_raw": 16400000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143377,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 16400000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": -137.0,
+          "mad_raw": 1799863.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146178,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 13555012.750000002,
+          "was_floored": true
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": -14683730.0,
+          "mad_raw": 62316270.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 62316270.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": -15000000.0,
+          "mad_raw": 79700000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145874,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 79700000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": -12991700.0,
+          "mad_raw": 64008300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 64008300.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": -7000000.0,
+          "mad_raw": 74600000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145622,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 74600000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": -9000000.0,
+          "mad_raw": 91000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145893,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 91000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": -7852405.0,
+          "mad_raw": 75147595.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 75147595.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": -10000000.0,
+          "mad_raw": 62000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144937,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 62000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": -10000000.0,
+          "mad_raw": 67422410.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144821,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 67422410.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": -9200000.0,
+          "mad_raw": 55400000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146161,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 55400000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": -59135.5,
+          "mad_raw": 18959135.5,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 13555012.750000002,
+          "scale_used": 18959135.5,
+          "was_floored": false
+        }
+      }
+    },
+    "G4_S_L": {
+      "files_used": 6,
+      "mad_floor_regime": 7645076.675000001,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": -170000000.0,
+          "mad_raw": 560000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145842,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 560000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": -160000000.0,
+          "mad_raw": 628000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145842,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 628000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": -159000000.0,
+          "mad_raw": 607750000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146182,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 607750000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": -94995350.0,
+          "mad_raw": 615004650.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 615004650.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": -100000000.0,
+          "mad_raw": 720000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144792,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 720000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": -95000000.0,
+          "mad_raw": 615000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146181,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 615000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": -120000000.0,
+          "mad_raw": 538896600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145965,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 538896600.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": -120000000.0,
+          "mad_raw": 550000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145933,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 550000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": -120000000.0,
+          "mad_raw": 550000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145961,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 550000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": -71830140.0,
+          "mad_raw": 419830140.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 419830140.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": -1000000.0,
+          "mad_raw": 13000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143161,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 13000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": -1400000.0,
+          "mad_raw": 16400000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146008,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 16400000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": -1000000.0,
+          "mad_raw": 13100150.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143510,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 13100150.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": -1000000.0,
+          "mad_raw": 16100000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143478,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 16100000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": -1100000.0,
+          "mad_raw": 20096640.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145961,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 20096640.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": -1000000.0,
+          "mad_raw": 17566110.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143201,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 17566110.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": -100000.0,
+          "mad_raw": 10900000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145420,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 10900000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": -1000000.0,
+          "mad_raw": 16000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143290,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 16000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": -100000.0,
+          "mad_raw": 10900000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145251,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 10900000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": -264.0,
+          "mad_raw": 3000264.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146187,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 7645076.675000001,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": -900000.0,
+          "mad_raw": 9100000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145877,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 9100000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": -1200000.0,
+          "mad_raw": 13100000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145928,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 13100000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": -500000.0,
+          "mad_raw": 9200000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145721,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 9200000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": -600000.0,
+          "mad_raw": 11100000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145767,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 11100000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": -1000000.0,
+          "mad_raw": 17459215.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143114,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 17459215.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": -600000.0,
+          "mad_raw": 11400000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145726,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 11400000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": -4207.0,
+          "mad_raw": 7995793.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 7995793.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": -500000.0,
+          "mad_raw": 10798850.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145888,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 10798850.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": -10459.5,
+          "mad_raw": 7889540.5,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 7889540.5,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": -115.0,
+          "mad_raw": 1399885.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146170,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 7645076.675000001,
+          "was_floored": true
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": -10400000.0,
+          "mad_raw": 52132800.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146155,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 52132800.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": -12200000.0,
+          "mad_raw": 62200000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146179,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 62200000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": -10000000.0,
+          "mad_raw": 56000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145532,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 56000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": -5300000.0,
+          "mad_raw": 56138060.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146161,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 56138060.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": -7000000.0,
+          "mad_raw": 70000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145697,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 70000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": -5700000.0,
+          "mad_raw": 57600000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146172,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 57600000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": -6498709.0,
+          "mad_raw": 45401291.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 45401291.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": -8000000.0,
+          "mad_raw": 48857660.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146023,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 48857660.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": -7000000.0,
+          "mad_raw": 45700000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145982,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 45700000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": -100000.0,
+          "mad_raw": 18900000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145191,
+          "mad_floor_regime": 7645076.675000001,
+          "scale_used": 18900000.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G4_W_H": {
+      "files_used": 6,
+      "mad_floor_regime": 17220057.8,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": -140000000.0,
+          "mad_raw": 660000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145826,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 660000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": -180000000.0,
+          "mad_raw": 820000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145948,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 820000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": -170000000.0,
+          "mad_raw": 770000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145945,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 770000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": -100000000.0,
+          "mad_raw": 760000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144666,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 760000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": -100000000.0,
+          "mad_raw": 900000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143411,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 900000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": -100000000.0,
+          "mad_raw": 840000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144281,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 840000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": -139849500.0,
+          "mad_raw": 690150500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 690150500.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": -121936900.0,
+          "mad_raw": 741936900.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 741936900.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": -133861300.0,
+          "mad_raw": 703861300.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 703861300.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": -60000000.0,
+          "mad_raw": 603242000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145860,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 603242000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": -1800000.0,
+          "mad_raw": 21200660.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146014,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 21200660.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": -3000000.0,
+          "mad_raw": 37000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145077,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 37000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": -1700000.0,
+          "mad_raw": 22300000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146033,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 22300000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": -1600000.0,
+          "mad_raw": 29400000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146033,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 29400000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": -2000000.0,
+          "mad_raw": 42000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144202,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 42000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": -1800000.0,
+          "mad_raw": 29800000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146074,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 29800000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": -1000000.0,
+          "mad_raw": 29000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143661,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 29000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": -2000000.0,
+          "mad_raw": 32000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144892,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 32000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": -1000000.0,
+          "mad_raw": 30800000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143346,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 30800000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": -1156.0,
+          "mad_raw": 10001156.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146193,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 17220057.8,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": -1600000.0,
+          "mad_raw": 17600000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145969,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 17600000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": -2500000.0,
+          "mad_raw": 29500000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146082,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 29500000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": -1900000.0,
+          "mad_raw": 20900000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146051,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 20900000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": -1600000.0,
+          "mad_raw": 23400000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146016,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 23400000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": -2000000.0,
+          "mad_raw": 37000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143719,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 37000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": -1400000.0,
+          "mad_raw": 24600000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145985,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 24600000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": -1300000.0,
+          "mad_raw": 21300000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146073,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 21300000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": -2000000.0,
+          "mad_raw": 28000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144368,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 28000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": -1000000.0,
+          "mad_raw": 28000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 142567,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 28000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": -3439.05,
+          "mad_raw": 7003439.05,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 17220057.8,
+          "was_floored": true
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": -10000000.0,
+          "mad_raw": 74814850.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144912,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 74814850.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": -17000000.0,
+          "mad_raw": 96000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145928,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 96000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": -13999500.0,
+          "mad_raw": 83001955.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 83001955.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": -10000000.0,
+          "mad_raw": 100000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144523,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 100000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": -10000000.0,
+          "mad_raw": 110000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143708,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 110000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": -10000000.0,
+          "mad_raw": 101686100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144355,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 101686100.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": -11000000.0,
+          "mad_raw": 79890290.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145981,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 79890290.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": -11000000.0,
+          "mad_raw": 86990100.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145954,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 86990100.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": -10000000.0,
+          "mad_raw": 83092710.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144787,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 83092710.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": -1200000.0,
+          "mad_raw": 44900000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146039,
+          "mad_floor_regime": 17220057.8,
+          "scale_used": 44900000.0,
+          "was_floored": false
+        }
+      }
+    },
+    "G4_W_L": {
+      "files_used": 6,
+      "mad_floor_regime": 12089968.55,
+      "columns": {
+        "Residual_EquivalentStress_t0p1": {
+          "median": -100000000.0,
+          "mad_raw": 590000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145290,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 590000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p5": {
+          "median": -167700500.0,
+          "mad_raw": 732299500.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 732299500.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t0p9": {
+          "median": -129000000.0,
+          "mad_raw": 671000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146190,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 671000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p1": {
+          "median": -100000000.0,
+          "mad_raw": 670000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145522,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 670000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p5": {
+          "median": -100000000.0,
+          "mad_raw": 750000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144860,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 750000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t1p9": {
+          "median": -100000000.0,
+          "mad_raw": 680000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145469,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 680000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p1": {
+          "median": -102000000.0,
+          "mad_raw": 593000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146180,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 593000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p5": {
+          "median": -118000000.0,
+          "mad_raw": 602000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146175,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 602000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t2p9": {
+          "median": -110000000.0,
+          "mad_raw": 610000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145969,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 610000000.0,
+          "was_floored": false
+        },
+        "Residual_EquivalentStress_t3p0": {
+          "median": -54000000.0,
+          "mad_raw": 544700000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146165,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 544700000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p1": {
+          "median": -600000.0,
+          "mad_raw": 12600000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145904,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 12600000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p5": {
+          "median": -1100000.0,
+          "mad_raw": 21100000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145977,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 21100000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t0p9": {
+          "median": -700000.0,
+          "mad_raw": 15700000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145920,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 15700000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p1": {
+          "median": -800000.0,
+          "mad_raw": 19200000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145951,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 19200000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p5": {
+          "median": -1000000.0,
+          "mad_raw": 29000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143464,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 29000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t1p9": {
+          "median": -900000.0,
+          "mad_raw": 19100000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145926,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 19100000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p1": {
+          "median": -200000.0,
+          "mad_raw": 14800000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145727,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 14800000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p5": {
+          "median": -1000000.0,
+          "mad_raw": 21000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 143136,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 21000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t2p9": {
+          "median": -200000.0,
+          "mad_raw": 15797600.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145655,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 15797600.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XY_t3p0": {
+          "median": -629.0,
+          "mad_raw": 9999371.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146191,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 12089968.55,
+          "was_floored": true
+        },
+        "Residual_ShearStress_XZ_t0p1": {
+          "median": -1000000.0,
+          "mad_raw": 13300000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 142636,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 13300000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p5": {
+          "median": -1200000.0,
+          "mad_raw": 18800000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145921,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 18800000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t0p9": {
+          "median": -1000000.0,
+          "mad_raw": 16200000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 142647,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 16200000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p1": {
+          "median": -1000000.0,
+          "mad_raw": 19000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 142758,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 19000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p5": {
+          "median": -1000000.0,
+          "mad_raw": 26000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 142392,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 26000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t1p9": {
+          "median": -1000000.0,
+          "mad_raw": 19000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 142437,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 19000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p1": {
+          "median": -400000.0,
+          "mad_raw": 12400000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145848,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 12400000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p5": {
+          "median": -1000000.0,
+          "mad_raw": 20000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 142519,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 20000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t2p9": {
+          "median": -500000.0,
+          "mad_raw": 12200000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145839,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 12200000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_XZ_t3p0": {
+          "median": -1513.5,
+          "mad_raw": 5998486.5,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 12089968.55,
+          "was_floored": true
+        },
+        "Residual_ShearStress_YZ_t0p1": {
+          "median": -6000000.0,
+          "mad_raw": 52093610.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145681,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 52093610.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p5": {
+          "median": -12500000.0,
+          "mad_raw": 77500000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146180,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 77500000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t0p9": {
+          "median": -8000000.0,
+          "mad_raw": 62000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145805,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 62000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p1": {
+          "median": -7000000.0,
+          "mad_raw": 74000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 145680,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 74000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p5": {
+          "median": -10000000.0,
+          "mad_raw": 91000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144688,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 91000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t1p9": {
+          "median": -7900000.0,
+          "mad_raw": 75900000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146175,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 75900000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p1": {
+          "median": -5100000.0,
+          "mad_raw": 55100000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146171,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 55100000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p5": {
+          "median": -10000000.0,
+          "mad_raw": 72000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144920,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 72000000.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t2p9": {
+          "median": -5272340.0,
+          "mad_raw": 57827660.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 146196,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 57827660.0,
+          "was_floored": false
+        },
+        "Residual_ShearStress_YZ_t3p0": {
+          "median": -1000000.0,
+          "mad_raw": 46000000.0,
+          "n_samples": 146196,
+          "n_nonzero_absdev": 144052,
+          "mad_floor_regime": 12089968.55,
+          "scale_used": 46000000.0,
+          "was_floored": false
+        }
+      }
+    }
+  }
+}

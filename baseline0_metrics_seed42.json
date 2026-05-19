@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "device": "cpu",
+  "normalizer_mu": 5.603369770351899,
+  "normalizer_sigma": 1.4530864309740734,
+  "val": {
+    "loss": 1.3127225637435913,
+    "acc": 0.75,
+    "f1_macro": 0.7333333333333334
+  },
+  "test": {
+    "loss": 1.3750569423039753,
+    "acc": 0.5833333333333334,
+    "f1_macro": 0.5944444444444443
+  },
+  "model": {
+    "name": "StatsMLP",
+    "hidden": 128,
+    "dropout": 0.15
+  },
+  "train": {
+    "epochs": 60,
+    "batch_size": 8,
+    "lr": 0.001,
+    "weight_decay": 0.01
+  }
+}

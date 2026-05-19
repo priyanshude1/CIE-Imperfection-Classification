@@ -1,0 +1,16 @@
+{
+  "seed": 1,
+  "candidates": 1000,
+  "train_per_class": 12,
+  "val_per_class": 2,
+  "test_per_class": 2,
+  "weights": {
+    "w_global": 1.0,
+    "w_coverage": 2.0
+  },
+  "best": {
+    "global_balance": 1.9444444439305553,
+    "train_coverage_penalty": 0.0,
+    "total_score": 1.9444444439305553
+  }
+}

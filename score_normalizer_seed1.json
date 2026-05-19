@@ -1,0 +1,12 @@
+{
+  "transform": "zscore_log1p",
+  "score_column": "score",
+  "fitted_on_split": "train",
+  "mu": 5.62536033863834,
+  "sigma": 1.4470967324020498,
+  "seed": 1,
+  "max_events_per_file": 0,
+  "manifest_path": "C:\\Users\\Priyanshu\\Desktop\\new_train\\training_residuals\\dataset_events_manifest_split_seed1.csv",
+  "n_train_samples": 72,
+  "notes": "Compute s_raw = log1p(score), then s_norm = (s_raw - mu)/sigma using train-fitted mu/sigma."
+}

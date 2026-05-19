@@ -1,0 +1,13 @@
+{
+  "transform": "zscore_log1p",
+  "score_column": "score",
+  "fitted_on": "all",
+  "fitted_on_split": "all",
+  "mu": 5.3649263428420255,
+  "sigma": 1.5882404694933283,
+  "seed": null,
+  "max_events_per_file": 0,
+  "manifest_path": "C:\\Users\\Priyanshu\\Desktop\\new_train\\training_residuals\\DEPLOYMENT_TRAINING\\dataset_events_manifest.csv",
+  "n_fit_rows": 88,
+  "notes": "Compute s_raw = log1p(score), then s_norm = (s_raw - mu)/sigma using fitted mu/sigma."
+}

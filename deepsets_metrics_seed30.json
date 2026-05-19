@@ -1,0 +1,29 @@
+{
+  "seed": 30,
+  "device": "cpu",
+  "normalizer_mu": 5.637822446480813,
+  "normalizer_sigma": 1.454542004669411,
+  "val": {
+    "loss": 0.512731929620107,
+    "acc": 0.9166666666666666,
+    "f1_macro": 0.9111111111111111
+  },
+  "test": {
+    "loss": 0.9449394146601359,
+    "acc": 0.4166666666666667,
+    "f1_macro": 0.38888888888888884
+  },
+  "model": {
+    "name": "deepsets",
+    "hidden": 128,
+    "embed_dim": 128,
+    "pool": "gated_meanmaxstd",
+    "dropout": 0.15
+  },
+  "train": {
+    "epochs": 80,
+    "batch_size": 8,
+    "lr": 0.001,
+    "weight_decay": 0.01
+  }
+}

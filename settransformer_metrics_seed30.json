@@ -1,0 +1,29 @@
+{
+  "seed": 30,
+  "device": "cpu",
+  "normalizer_mu": 5.62536033863834,
+  "normalizer_sigma": 1.4470967324020498,
+  "val": {
+    "loss": 1.2292913893858592,
+    "acc": 0.75,
+    "f1_macro": 0.6777777777777777
+  },
+  "test": {
+    "loss": 1.396052320798238,
+    "acc": 0.6666666666666666,
+    "f1_macro": 0.6174603174603174
+  },
+  "model": {
+    "name": "settransformer",
+    "hidden": 128,
+    "embed_dim": 128,
+    "pool": "meanmax",
+    "dropout": 0.0
+  },
+  "train": {
+    "epochs": 60,
+    "batch_size": 4,
+    "lr": 0.0003,
+    "weight_decay": 0.0001
+  }
+}
